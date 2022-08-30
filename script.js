@@ -44,12 +44,12 @@ document.addEventListener("keyup", function () {
 });
 
 function draw() {
-  ctx.fillStyle = "Green";
-  ctx.fillRect(snake[0].x, snake[0].y, cub, cub);
+  //ctx.fillStyle = "Green";
+  //ctx.fillRect(snake[0].x, snake[0].y, cub, cub);
   console.log(i);
 
-  let last = snake.length - 1;
-  ctx.clearRect(snake[last].x, snake[last].y, cub, cub);
+  //let last = snake.length - 1;
+  //ctx.clearRect(snake[last].x, snake[last].y, cub, cub);
 
   //for (l = 0; l < snake.length; l++) {
   if (i == "ArrowUp") {
